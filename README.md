@@ -2,7 +2,7 @@
 
 Projeto de automação de testes de Qualidade (QA) desenvolvido para validar as funcionalidades do site [DemoQA](https://demoqa.com/).
 
-Este projeto tem como objetivo praticar e demonstrar interações avançadas com elementos web modernos e realizar testes híbridos, combinando Interface (UI) e API.
+Este projeto tem como objetivo praticar e demonstrar interações avançadas com elementos web modernos e realizar testes híbridos, combinando Interface (UI) e API utilizando **Cypress**.
 
 ## 🎯 Escopo do Projeto
 
@@ -28,25 +28,24 @@ O projeto cobre os seguintes módulos da aplicação:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem:** [Ex: JavaScript / Java / Python]
-- **Framework de Teste:** [Ex: Cypress / Playwright / Selenium]
+- **Linguagem:** JavaScript
+- **Framework de Teste:** Cypress
+- **Ambiente de Execução:** Node.js (v22.20.0)
 - **Padrão de Projeto:** Page Object Model (POM)
-- **Relatórios:** [Ex: Allure Reports / Mochawesome]
-- **CI/CD:** [Ex: GitHub Actions]
+- **Relatórios:** Mochawesome / Cypress Dashboard
+- **CI/CD:** GitHub Actions
 
 ## 🚀 Como Rodar o Projeto
 
 ### Pré-requisitos
 
-- [Ex: Node.js v18+]
+- Node.js na versão **22.20.0** ou superior.
+- Git instalado.
 
 ### Instalação
 
-Clonar o repositório:
+1. Clone o repositório:
 
 ```bash
-git clone [https://github.com/seu-usuario/projeto-testes-automaticos.git](https://github.com/seu-usuario/projeto-testes-automaticos.git)
-cd projeto-testes-automaticos
-# Instalar dependências
-[comando de instalação, ex: npm install]
+git clone [https://github.com/kauaribeirodev/projeto-testes-automaticos-demoqa.git](https://github.com/kauaribeirodev/projeto-testes-automaticos-demoqa.git)
 ```
