@@ -1,0 +1,24 @@
+{
+  "name": "projeto-testes-automaticos-demoqa",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes de Qualidade (QA) desenvolvido para validar as funcionalidades do site [DemoQA](https://demoqa.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauaribeirodev/projeto-testes-automaticos-demoqa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauaribeirodev/projeto-testes-automaticos-demoqa/issues"
+  },
+  "homepage": "https://github.com/kauaribeirodev/projeto-testes-automaticos-demoqa#readme",
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "cypress": "^15.7.0"
+  }
+}
