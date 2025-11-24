@@ -1,6 +1,17 @@
-describe("Deve testar a caixa de texto", () => {
-  it("passes", () => {
+import TextBox from "../../pages/elements/TextBox.Page";
+import { faker } from "@faker-js/faker";
+
+describe("Funcionalidade de textar a caixa de texto", () => {
+  beforeEach(() => {
+    Cypress.on("uncaught:exception", () => false);
     cy.visit("text-box");
-    cy.get("#userName").type(faker.person.fullName);
+  });
+  it("Deve testar a caixa de texto", () => {
+    TextBox.text(
+      faker.person.fullName(),
+      faker.internet.email(),
+      faker.location.streetAddress(),
+      faker.location.streetAddress()
+    );
   });
 });
