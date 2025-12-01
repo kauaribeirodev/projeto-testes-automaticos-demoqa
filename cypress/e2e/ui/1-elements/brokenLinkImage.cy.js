@@ -14,7 +14,7 @@ describe("Funcionalidade de testar imagens e links", () => {
     BrokenLinkImagePage.validLink();
   });
 
-  it.only("Deve validar se link está quebrado", () => {
+  it("Deve validar se link está quebrado", () => {
     BrokenLinkImagePage.brokenLink();
   });
 });
